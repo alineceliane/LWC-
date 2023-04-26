@@ -1,0 +1,17 @@
+import { LightningElement } from 'lwc';
+
+export default class App extends LightningElement {
+   empresa = 'AC Company';
+   cnpj = '12389564-98';
+   endereço = 'Centro';
+   produto = 'Macarrão';
+   descrição = 'Loja de Macarrão';
+   preço = '5 R$';
+   oferta1 = 'Ninho';
+   oferta2 = 'Parafuso';
+
+visible = true;
+
+Esconder(){
+this.visible = !this.visible;
+}
